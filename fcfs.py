@@ -5,6 +5,7 @@ process={
     2:1,
     3:4
 }
+process=dict(sorted(process.items()))
 
 print(process)
 ct=[0,0,0,0]
@@ -22,3 +23,7 @@ for i in process:
 print(ct)
 print(tat)
 print(wt)
+avg_tat = sum(tat) / len(process)
+avg_wt  = sum(wt)  /len(process)
+print(avg_tat)
+print(avg_wt)
