@@ -29,7 +29,12 @@ while done < n:
 tat = [ct[i] - at[i] for i in range(n)]
 wt = [tat[i] - bt[i] for i in range(n)]
 
+avg_tat = sum(tat) / n
+avg_wt = sum(wt) / n
+
 print("CT:", ct)
 print("TAT:", tat)
 print("WT:", wt)
 print("Avg CT:", sum(ct) / n)
+print("Avg TAT:", avg_tat)
+print("Avg WT:", avg_wt)
