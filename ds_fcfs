@@ -1,0 +1,20 @@
+list=[176,39,114,90,26]
+
+head=60
+
+sum=0
+pointer=60
+
+cal=abs(list[0]-head)
+print(cal)
+sum+=cal
+
+for i in range(1,5):
+        print(list[i-1],"-",list[i])
+        cal=abs(list[i-1]-list[i])
+        print(cal)
+        sum+=cal
+        
+        
+print(sum)    
+        
