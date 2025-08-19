@@ -1,4 +1,5 @@
-list=[176,39,114,90,26]
+input_string = input("Enter integers separated by spaces: ")
+list = list(map(int, input_string.split()))
 
 head=60
 
