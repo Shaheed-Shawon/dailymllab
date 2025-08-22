@@ -14,7 +14,7 @@ print(cal)
 sum+=cal
 #list.remove(head)
 i=1
-while i<5:
+while i<len(list):
         if(list[i]==head):
             print(list[i-1],"-",list[i+1])
             cal=abs(list[i-1]-list[i+1])
@@ -32,5 +32,5 @@ while i<5:
          i+=1
         
         
-print(sum)    
+print("answer is",sum)    
         
